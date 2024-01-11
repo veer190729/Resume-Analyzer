@@ -4,13 +4,9 @@ OpenResume is a powerful open-source resume builder and resume parser.
 
 The goal of OpenResume is to provide everyone with free access to a modern professional resume design and enable anyone to apply for jobs with confidence.
 
-Official site: [https://open-resume.com](https://open-resume.com)
-
 ## ⚒️ Resume Builder
 
 OpenResume's resume builder allows user to create a modern professional resume easily.
-
-![Resume Builder Demo](https://i.ibb.co/jzcrrt8/resume-builder-demo-optimize.gif)
 
 It has 5 Core Features:
 | <div style="width:285px">**Feature**</div> | **Description** |
@@ -24,10 +20,6 @@ It has 5 Core Features:
 ## 🔍 Resume Parser
 
 OpenResume’s second component is the resume parser. For those who have an existing resume, the resume parser can help test and confirm its ATS readability.
-
-![Resume Parser Demo](https://i.ibb.co/JvSVwNk/resume-parser-demo-optimize.gif)
-
-You can learn more about the resume parser algorithm in the ["Resume Parser Algorithm Deep Dive" section](https://open-resume.com/resume-parser).
 
 ## 📚 Tech Stack
 
@@ -56,16 +48,9 @@ OpenResume is created with the NextJS web framework and follows its project stru
 
 ### Method 1: npm
 
-1. Download the repo `git clone https://github.com/xitanggg/open-resume.git`
-2. Change the directory `cd open-resume`
+1. Download the repo `git clone https://github.com/veer190729/Resume-Analyzer.git`
+2. Change the directory `cd Resume-Analyzer`
 3. Install the dependency `npm install`
 4. Start a development server `npm run dev`
 5. Open your browser and visit [http://localhost:3000](http://localhost:3000) to see OpenResume live
 
-### Method 2: Docker
-
-1. Download the repo `git clone https://github.com/xitanggg/open-resume.git`
-2. Change the directory `cd open-resume`
-3. Build the container `docker build -t open-resume .`
-4. Start the container `docker run -p 3000:3000 open-resume`
-5. Open your browser and visit [http://localhost:3000](http://localhost:3000) to see OpenResume live
