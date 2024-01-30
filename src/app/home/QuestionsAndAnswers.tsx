@@ -73,8 +73,8 @@ const QAS = [
     answer: (
       <p>
         OpenResume was created by{" "}
-        <Link href="https://github.com/xitanggg">Xitang Zhao</Link> and designed
-        by <Link href="https://www.linkedin.com/in/imzhi">Zhigang Wen</Link> as
+        <Link href="https://github.com/veer190729">Ranvir Kumar</Link> and designed
+        by <Link href="https://www.linkedin.com/feed/">Ranvir Kumar</Link> as
         a weekend project. As immigrants to the US, we had made many mistakes
         when creating our first resumes and applying for internships and jobs.
         It took us a long while to learn some of the best practices. While
@@ -97,9 +97,9 @@ const QAS = [
           The best way to support OpenResume is to share your thoughts and
           feedback with us to help further improve it. You can send us an email
           at{" "}
-          <Link href="mailto:hello@open-resume.com">hello@open-resume.com</Link>{" "}
+          <Link href="ranvir26apr@gmail.com">ranvir26apr@gmail.com</Link>{" "}
           or{" "}
-          <Link href="https://github.com/xitanggg/open-resume/issues/new">
+          <Link href="https://github.com/veer190729/Resume-Analyzer/issues/new">
             open an issue
           </Link>{" "}
           at our Github repository. Whether you like it or not, we would love to
@@ -112,7 +112,7 @@ const QAS = [
           with creating their resume, and your word-of-mouth support would be
           greatly appreciated. If you use Github, you can also show your support
           by{" "}
-          <Link href="https://github.com/xitanggg/open-resume">
+          <Link href="https://github.com/veer190729/Resume-Analyzer">
             giving the project a star
           </Link>{" "}
           to help increase its popularity and reach.

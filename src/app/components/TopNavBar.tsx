@@ -33,15 +33,15 @@ export const TopNavBar = () => {
         >
           {[
             ["/resume-builder", "Builder"],
-            ["/resume-parser", "Analyzer"],
+            //["/resume-parser", "Analyzer"],
           ].map(([href, text]) => (
-            // Commenting out the href to remove the link functionality
-            <span 
+            <Link
               key={text}
               className="rounded-md px-1.5 py-2 text-gray-500 hover:bg-gray-100 focus-visible:bg-gray-100 lg:px-4"
+              href={href}
             >
               {text}
-            </span>
+            </Link>
           ))}
           <div className="ml-1 mt-1">
             
