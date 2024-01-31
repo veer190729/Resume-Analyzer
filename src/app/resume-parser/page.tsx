@@ -68,12 +68,12 @@ export default function ResumeParser() {
             <Heading className="text-primary !mt-4">
               Resume Analyzer Playground
             </Heading>
-            <Paragraph smallMarginTop={true}>
+            {/* <Paragraph smallMarginTop={true}>
               This playground showcases the OpenResume resume Analyzer and its
               ability to Analyze information from a resume PDF. Click around the
               PDF examples below to observe different parsing results.
-            </Paragraph>
-            <div className="mt-3 flex gap-3">
+            </Paragraph> */}
+            {/* <div className="mt-3 flex gap-3">
               {RESUME_EXAMPLES.map((example, idx) => (
                 <article
                   key={idx}
@@ -96,9 +96,9 @@ export default function ResumeParser() {
                   </p>
                 </article>
               ))}
-            </div>
+            </div> */}
             <Paragraph>
-              You can also{" "}
+              You can{" "}
               <span className="font-semibold">add your resume below</span> to
               access how well your resume would be parsed by similar Application
               Tracking Systems (ATS) used in job applications. The more
@@ -117,7 +117,7 @@ export default function ResumeParser() {
             <Heading level={2} className="!mt-[1.2em]">
               Resume Parsing Results
             </Heading>
-            <ResumeTable resume={resume} />
+            {/* <ResumeTable resume={resume} /> */}
             <ResumeParserAlgorithmArticle
               textItems={textItems}
               lines={lines}
